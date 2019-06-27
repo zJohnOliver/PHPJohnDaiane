@@ -1,0 +1,6 @@
+create database escola;
+create table aluno(
+numero int primary key,
+nome varchar(100) not null,
+sexo char not null
+)
